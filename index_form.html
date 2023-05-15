@@ -17,6 +17,9 @@
     <!-- Referencia a hoja de Estilos CSS Personalizadas -->
     <link rel="stylesheet" href="css/estilos.css">
 
+     <!-- Referencia a hoja de JS Personalizada -->
+     <script src="/js/js.js"></script>
+
 
 
 </head>
@@ -104,7 +107,7 @@
                 <textarea name="comentarios" rows="5" cols="50" placeholder="Hola, me refiero a..."></textarea>
                 <br>
                 <br>
-                <input type="submit" value="Enviar"> <!-- envia al action -->
+                <input type="submit" name="Enviar" value="Enviar" onclick="return confirmacion()"> <!-- envia al action -->
                 <button type="reset">Cancelar</button>
                 <a href="index.html" ></a>
             </fieldset>
